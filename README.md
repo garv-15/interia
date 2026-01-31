@@ -2,10 +2,11 @@
 
 ### Requirements
 
-Before starting, verify that **Node.js** and **git** is installed. This environment is essential for managing dependencies and ensuring file accessibility.
+before starting, verify that **Node.js** and **git** is installed. These tools are required for working with this project.
 
 ```bash
 node -v
+git
 ```
 ---
 
@@ -22,10 +23,10 @@ npm install
 
 ### Project Structure
 
-Currently, the focus is on the **Frontend** development.
+as of now, we will only deal with **Frontend** development.
 
 * **`/frontend`**: Contains all frontend logic and assets.
-* **`server.js`**: Reserved for future backend configuration.
+* **`server.js`**: maybe for future backend configuration, not to be edited as of now.
 
 ---
 
@@ -53,9 +54,7 @@ To terminate the webserver process:
 
 ---
 
-### Styling Guidelines
-
-To maintain a clean codebase, follow these priority rules when editing styles:
+### file editing
 
 1. make all initial changes in separate `.css` files.
-2. **Main CSS**: Only modify the global/main CSS files once changes are verified and ready for integration.
+2. **Main CSS**: Only modify the global/main CSS files once changes are final.
