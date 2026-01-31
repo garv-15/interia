@@ -2,15 +2,21 @@
 
 ### Requirements
 
-Before starting, verify that **Node.js** is installed. This environment is essential for managing dependencies and ensuring file accessibility.
+Before starting, verify that **Node.js** and **git** is installed. This environment is essential for managing dependencies and ensuring file accessibility.
 
 ```bash
 node -v
 ```
-
 ---
 
-### Project Architecture
+to run this project, first clone this repository using **`git clone`**
+
+```
+git clone https://github.com/garv-15/interia.git .
+```
+this will download and save this project in your current directory
+
+### Project Structure
 
 Currently, the focus is on the **Frontend** development.
 
