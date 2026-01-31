@@ -15,6 +15,10 @@ to run this project, first clone this repository using **`git clone`**
 git clone https://github.com/garv-15/interia.git .
 ```
 this will download and save this project in your current directory
+and then install the required packages using
+```
+npm install
+```
 
 ### Project Structure
 
