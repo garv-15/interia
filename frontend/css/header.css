@@ -1,0 +1,13 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2rem 3rem;
+  z-index: 10;
+  background: transparent;
+}
+
+.brand {
+  font-family: Canela, serif;
+  letter-spacing: 0.15em;
+}

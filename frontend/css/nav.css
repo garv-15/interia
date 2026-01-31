@@ -1,0 +1,36 @@
+.pill-nav {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--white);
+  padding: 0.5rem;
+  border-radius: 999px;
+  display: flex;
+  gap: 0.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.pill-nav button {
+  border: none;
+  background: transparent;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.pill-nav button:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.pill-nav button.active {
+  background: var(--black);
+  color: var(--white);
+}
+
+.pill-nav button.cart {
+  background: #c2a77d;
+  color: #000;
+}
