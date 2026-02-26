@@ -1,5 +1,86 @@
 <section class="page">
   <h1>Shop</h1>
-  <div class="block"></div>
-  <div class="block tall"></div>
+
+  <div class="shop-layout">
+
+  <!-- Sidebar -->
+  <aside class="prefs">
+    <h3>Room Preferences</h3>
+
+    <label>Room Color</label>
+    <input type="color" id="roomColor" />
+
+    <label>Dimensions (ft)</label>
+    <input placeholder="Length" id="len" />
+    <input placeholder="Width" id="wid" />
+    <input placeholder="Height" id="hei" />
+
+    <label>Budget</label>
+    <select id="budget">
+      <option value="budget">Budget</option>
+      <option value="mid">Mid-range</option>
+      <option value="premium">Premium</option>
+    </select>
+
+    <p id="recommendation" class="hint"></p>
+  </aside>
+
+  <!-- Main content -->
+
+    <section class="rooms">
+
+  <!-- ROOM GRID -->
+  <div class="room-grid">
+
+    <div class="room-tile" data-room="kitchen">
+      <h2>Kitchen</h2>
+      <img src="https://plus.unsplash.com/premium_photo-1680382578857-c331ead9ed51?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  />
+    </div>
+
+    <div class="room-tile" data-room="living">
+      <h2>Living Room</h2>
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" />
+    </div>
+
+    <div class="room-tile" data-room="bedroom">
+      <h2>Bedroom</h2>
+      <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed"  />
+    </div>
+
+    <div class="room-tile" data-room="dining">
+      <h2>Dining</h2>
+      <img src="https://images.unsplash.com/photo-1617098709804-705581f844eb?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+    </div>
+
+  </div>
+
+  <!-- ROOM CONTENT (revealed on click) -->
+  <div class="room-content placeholder">
+  <p>Select a room to explore interior options</p>
+</div>
+
 </section>
+
+
+    <!-- REVIEWS -->
+    <section class="reviews">
+
+    </section>
+
+    <!-- RECENT WORK -->
+    <section class="recent-work">
+      <h2 style="margin-bottom: 10px;">Recent Work</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" />
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" />
+        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea" />
+      </div>
+      <p class="price-tag">Full house interior · Rs. 7.00L</p>
+    </section>
+
+  </section>
+</div>
+
+
+
+

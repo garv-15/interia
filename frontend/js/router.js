@@ -5,10 +5,16 @@ async function loadPage(page, push = true) {
   const res = await fetch(`/partials/${page}.html`);
   app.innerHTML = await res.text();
 
+  if (typeof initShop === "function") initShop();
+  if (typeof initCart === "function") initCart();
+  updateCartPill?.();
+
   buttons.forEach(b => b.classList.remove("active"));
   document.querySelector(`[data-page="${page}"]`)?.classList.add("active");
 
-  if (push) history.pushState({ page }, "", page === "home" ? "/" : `/${page}`);
+  if (push) {
+    history.pushState({ page }, "", page === "home" ? "/" : `/${page}`);
+  }
 }
 
 buttons.forEach(btn => {
